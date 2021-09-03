@@ -72,7 +72,7 @@
 // Operadores
 //console.log(".........................")
 
-console.log(".........................")
+/* console.log(".........................")
 
 //Pedir al usuario los siguientes datos a un usuario (nombre, peso actual en kg): Calcular el peso que tendria esa persona en la luna en Imprimirlo en consola// 
 
@@ -81,7 +81,7 @@ let ask_weight = prompt("How much you weight?")
 const earth_gravity = 9.8 
 const moon_gravity = 1.622
 const jupiter_gravity = 24.79
-const uranus_gravity = 8.69
+const ura5nus_gravity = 8.69
 const venus_gravity = 8.87
 const mars_gravity = 3.711
 
@@ -95,3 +95,41 @@ let operation_WeightAtMars = (ask_weight/earth_gravity) * mars_gravity
 
 
 console.log(ask_name + ", your weight in the moon is " + operation_WeightAtMoon + " at Venus " + operation_WeightAtVenus + " in Uranus " + operation_WeightAtUranus + " in Mars " + operation_WeightAtMars)
+ */
+
+// Operador ternario
+
+// Condicion ? (verdadero) : (falso)
+/* 
+let edad = 24
+
+let eresMayoredad >= 18 ? "Eres mayor de edad" : "Eres menor de edad" */
+
+
+let today = 4
+switch (today){
+    case 0:
+        console.log("Domingo")
+        break;
+    case 1:
+        console.log("Lunes")
+        break;
+    case 2:
+        console.log("Martes")
+        break;
+    case 3:
+        console.log("Miercoles")
+        break;
+    case 4:
+        console.log("Jueves")
+        break;
+    case 5:
+        console.log("Viernes")
+        break;
+    case 6:
+        console.log("Sabado")
+        break;
+    default:
+        console.log("Dia invalido")
+        break;   
+}
