@@ -16,7 +16,7 @@ console.log(result)
 
 // Ejercicio 1
 
-let palabra = prompt("ingrese palabra")
+/* let palabra = prompt("ingrese palabra")
 let i=0
 while(i=1){
 
@@ -56,16 +56,15 @@ while(i < 100){
     console.log (`${numero1} x ${numero} = ${operacion}`);
     i++;
     numero1++;
-}
-
+} */
+
 
 //// Ejercio 3
 
-let numerosDelUsuario = prompt("Dame un numero del 10 - 100")
-let flag = 0
+/* let numerosDelUsuario = prompt("Dame un numero del 10 - 100")
 let convertToNumber = Number(numerosDelUsuario)
 
-if (convertToNumber>=10 && convertToNumber<=100){
+if (convertToNumber >= 10 && convertToNumber <= 100){
     for (let i=1; i<=convertToNumber; i++){
         if (i%2===0){
             console.log(i)
@@ -73,8 +72,8 @@ if (convertToNumber>=10 && convertToNumber<=100){
     }
 }else{
     alert ("not in range")
-}
-
+} */
+/*
 // Ejercicio 4
 
 let value = prompt("Enter here your numeritos");
@@ -89,7 +88,7 @@ while (value) {
 let patron="*"
 i = 0
 while(i < 10){
-
+
     console.log(patron)
     patron+="*"
     i++;
@@ -105,7 +104,7 @@ for(i=1;i<=100;i++)
         }      
       
 }
-
+
 console.log("El total de los multiplos de 3 y 5 es:", total )
 
 //// Ejercicio 7
@@ -121,7 +120,7 @@ output: helloKoders
 
 let fraseNormal = ("Hola como estas")
 let splitFrase = fraseNormal.split(/\s/)
-let resultado = splitFrase[0].toLowerCase() + splitFrase2[1].charAt(0).toUpperCase() +splitFrase2[1].slice(1)  + splitFrase2[2].charAt(0).toUpperCase() +splitFrase2[2].slice(1).toLowerCase()
+let resultado = splitFrase[0].toLowerCase() + splitFrase[1].charAt(0).toUpperCase() +splitFrase[1].slice(1)  + splitFrase[2].charAt(0).toUpperCase() +splitFrase[2].slice(1).toLowerCase()
 console.log(resultado)
  
 let fraseNormal2 = ("hello Koders")
@@ -132,7 +131,7 @@ console.log(resultado2)
 // Ejercicio 8
 
 let totalSuma=0;
-
+
 for(i=1;i<=10;i++)
 {
     let pregunta=`Ingresa numero ${i}:`;
@@ -143,5 +142,5 @@ for(i=1;i<=10;i++)
         }      
       
 }
-
-console.log("El total de los ultimos 5 numeros es:", totalSuma )
+
+console.log("El total de los ultimos 5 numeros es:", totalSuma ) */
