@@ -15,7 +15,7 @@ output:
 */
 
 //Team Armando, Toño y Emi
-function Ejercicio1(){
+/* function Ejercicio1(){
     let numeroKoders = prompt("indica el número de koders")
     let nombreKoders =[]
     for(let i=1; i<=numeroKoders; i++){
@@ -27,4 +27,11 @@ function Ejercicio1(){
         console.log(`Koder ${i+1}: ${nombreKoders[i]}`)
     }
 }
-Ejercicio1()
+Ejercicio1() */
+
+
+let arrayKoders = [
+    "Fany Lopez",
+    "Elias Herrera",
+    "Kraken Perez"
+]
