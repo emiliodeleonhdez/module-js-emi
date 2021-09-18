@@ -73,20 +73,27 @@ const songsData = [
 - La cancion con más likes
 */
 
-// - Agrupar el nombres de la bandas, que no esten repetidas // map //
+// Agrupar las canciones por banda
 
-
-
-//- Agrupar las canciones por banda
-
-
+let getBanda = songsData.map(banda => banda.band)
+console.log(getBanda)
 
 // La cancion con más reproducciones
 
-let masLikes = songsData.map(cancion => cancion.statistics.likes)
+/* let masReproducciones = songsData.map(cancion => cancion.statistics.reproductions)
+console.log(masReproducciones)
+let getMax = Math.max(...masReproducciones)
+console.log(getMax)
+let filtrarCancion = songsData.filter(cancion => cancion.statistics.reproductions === getMax)
+console.log("La canción con más reproducciones es: ")
+console.log(filtrarCancion) */
+
+// La cancion con más likes
+
+/* let masLikes = songsData.map(cancion => cancion.statistics.likes)
 console.log(masLikes)
 let getMax = Math.max(...masLikes)
 console.log(getMax)
 let filtrarCancion = songsData.filter(cancion => cancion.statistics.likes === getMax)
 console.log("La canción con más Likes es: ")
-console.log(filtrarCancion)
+console.log(filtrarCancion) */
