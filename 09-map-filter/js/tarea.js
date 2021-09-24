@@ -75,8 +75,8 @@ const songsData = [
 
 // Agrupar las canciones por banda
 
-let getBanda = songsData.map(banda => banda.band)
-console.log(getBanda)
+/* let getBanda = songsData.map(banda => banda.band)
+console.log(getBanda) */
 
 // La cancion con más reproducciones
 
@@ -96,4 +96,33 @@ let getMax = Math.max(...masLikes)
 console.log(getMax)
 let filtrarCancion = songsData.filter(cancion => cancion.statistics.likes === getMax)
 console.log("La canción con más Likes es: ")
-console.log(filtrarCancion) */
+console.log(filtrarCancion)
+ */
+
+
+/*
+Obtener una lista de strings con el siguiente formato:
+"La cancion {name} es de {banda}"
+*/
+/*
+crear una funcion que me permita Obtener las canciones que contengan un criterio de busqueda
+criterio: cel
+[
+    {
+        name: "La celula que explota",
+        band: "Jaguares",
+        releaseYear: "1999",
+        statistics: {
+            likes: 12000,
+            reproductions: 23421
+        },
+    }
+]
+*/
+
+let printNameSong = songsData.map((cancion,index)=>{
+    return(`La cancion ${cancion.name} es de ${cancion.band}`)
+})
+
+console.log(printNameSong)
+
